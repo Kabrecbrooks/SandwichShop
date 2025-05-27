@@ -1,15 +1,12 @@
-public class Toppings {
+public abstract class Toppings {
+
     private String name;
-    private int size;
-    private boolean isPremium;
-    boolean isExtra;
+    boolean extra;
     private double price;
 
-    public Toppings(String name, int size, boolean isPremium, boolean isExtra, double price) {
+    public Toppings(String name, boolean extra, double price) {
         this.name = name;
-        this.size = size;
-        this.isPremium = isPremium;
-        this.isExtra = isExtra;
+        this.extra = extra;
         this.price = price;
     }
 
@@ -21,28 +18,12 @@ public class Toppings {
         this.name = name;
     }
 
-    public int getSize() {
-        return size;
-    }
-
-    public void setSize(int size) {
-        this.size = size;
-    }
-
-    public boolean isPremium() {
-        return isPremium;
-    }
-
-    public void setPremium(boolean premium) {
-        isPremium = premium;
-    }
-
     public boolean isExtra() {
-        return isExtra;
+        return extra;
     }
 
     public void setExtra(boolean extra) {
-        isExtra = extra;
+        extra = extra;
     }
 
     public double getPrice() {
@@ -53,8 +34,3 @@ public class Toppings {
         this.price = price;
     }
 }
-
-
-
-
-
