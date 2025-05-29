@@ -1,0 +1,11 @@
+Sandwiches:
+Sandwich 
+  Bread: Wheat (4")
+  Toasted: No
+  Toppings: [bacon (extra) - $1.5]
+  Sauces: [mayo]
+  Sides: None
+  Total Price: $7.00
+
+Total: $7.00
+Thank you for your order!
