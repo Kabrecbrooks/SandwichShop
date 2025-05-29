@@ -30,10 +30,8 @@ public class Chips {
 
     @Override
     public String toString() {
-        return
-                "price=" + price +
-                ", name='" + name + '\'' +
-                '}';
+        return String.format("%s - $%.2f", name, price);
+
     }
 
     public static Chips createChips(Scanner scanner) {
@@ -58,6 +56,5 @@ public class Chips {
         }
         return new Chips(chipsList.get(userChoice - 1));
     }
-
 
 }

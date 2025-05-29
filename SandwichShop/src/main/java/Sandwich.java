@@ -214,13 +214,13 @@ public class Sandwich {
 
     @Override
     public String toString() {
-        return "Sandwich {" +
+        return "Sandwich " +
                 "\n  Bread: " + (bread != null ? bread.getType() + " (" + bread.getSize() + "\")" : "N/A") +
                 "\n  Toasted: " + (toasted ? "Yes" : "No") +
                 "\n  Toppings: " + (toppings != null && !toppings.isEmpty() ? toppings : "None") +
                 "\n  Sauces: " + (sauces != null && !sauces.isEmpty() ? sauces : "None") +
                 "\n  Sides: " + (sides != null && !sides.isEmpty() ? sides : "None") +
                 String.format("\n  Total Price: $%.2f", price) +
-                "\n}";
+                "\n";
     }
 }

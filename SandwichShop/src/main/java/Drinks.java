@@ -23,11 +23,7 @@ public class Drinks {
 
     @Override
     public String toString() {
-        return
-                "size='" + size + '\'' +
-                ", flavor='" + flavor + '\'' +
-                ", price=" + price +
-                '}';
+        return String.format("%s (%s) - $%.2f", flavor, size, price);
     }
 
     public String getSize() {

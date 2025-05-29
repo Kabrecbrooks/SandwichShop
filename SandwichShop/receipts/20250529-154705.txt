@@ -1,0 +1,27 @@
+Sandwiches:
+Sandwich 
+  Bread: Wheat (8")
+  Toasted: No
+  Toppings: [steak - $2.0]
+  Sauces: [mayo]
+  Sides: None
+  Total Price: $9.00
+
+Sandwich 
+  Bread: Rye (4")
+  Toasted: No
+  Toppings: [Swiss - $0.75]
+  Sauces: [mayo]
+  Sides: None
+  Total Price: $6.25
+
+Sandwich 
+  Bread: Rye (12")
+  Toasted: No
+  Toppings: [American - $2.25]
+  Sauces: None
+  Sides: None
+  Total Price: $10.75
+
+Total: $26.00
+Thank you for your order!

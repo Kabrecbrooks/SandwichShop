@@ -1,0 +1,6 @@
+Drinks:
+Cola (S) - $2.00
+Chips:
+Doritos - $1.50
+Total: $3.50
+Thank you for your order!

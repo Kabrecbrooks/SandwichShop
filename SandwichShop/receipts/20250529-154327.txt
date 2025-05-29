@@ -1,0 +1,15 @@
+Sandwiches:
+Sandwich {
+  Bread: Wheat (8")
+  Toasted: No
+  Toppings: [steak - $2.0, Swiss - $1.5, pickles - $0.0, lettuce - $0.0]
+  Sauces: None
+  Sides: None
+  Total Price: $10.50
+}
+Drinks:
+Pepsi (M) - $2.50
+Chips:
+Doritos - $1.50
+Total: $14.50
+Thank you for your order!
