@@ -1,0 +1,11 @@
+Sandwiches:
+Sandwich {
+  Bread: Wheat (8")
+  Toasted: No
+  Toppings: [steak - $2.0]
+  Sauces: [mayo]
+  Sides: None
+  Total Price: $9.00
+}
+Total: $9.00
+Thank you for your order!

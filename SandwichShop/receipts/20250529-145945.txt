@@ -1,0 +1,7 @@
+Drinks:
+size='M', flavor='Cola', price=2.5}
+size='S', flavor='Cola', price=2.0}
+Chips:
+price=1.5, name='Cheetos'}
+Total: $6.00
+Thank you for your order!

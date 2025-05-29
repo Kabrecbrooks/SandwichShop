@@ -28,6 +28,14 @@ public class Chips {
         return price;
     }
 
+    @Override
+    public String toString() {
+        return
+                "price=" + price +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
     public static Chips createChips(Scanner scanner) {
         Integer userChoice = null;
         while (userChoice == null) {
@@ -50,4 +58,6 @@ public class Chips {
         }
         return new Chips(chipsList.get(userChoice - 1));
     }
+
+
 }

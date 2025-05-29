@@ -1,0 +1,15 @@
+Sandwiches:
+Sandwich {
+  Bread: Wheat (8")
+  Toasted: Yes
+  Toppings: [steak - $2.0, American - $1.5, lettuce - $0.0, peppers - $0.0, pickles - $0.0]
+  Sauces: [mustard]
+  Sides: None
+  Total Price: $10.50
+}
+Drinks:
+Drinks@404b9385
+Chips:
+Chips@6d311334
+Total: $14.00
+Thank you for your order!

@@ -1,0 +1,15 @@
+Sandwiches:
+Sandwich {
+  Bread: White (4")
+  Toasted: No
+  Toppings: [steak - $1.0, Swiss (extra) - $1.05, Swiss - $0.75, pickles - $0.0, onions - $0.0, tomatoes - $0.0]
+  Sauces: [mustard]
+  Sides: None
+  Total Price: $8.30
+}
+Drinks:
+Drinks@41629346
+Chips:
+Chips@404b9385
+Total: $12.30
+Thank you for your order!

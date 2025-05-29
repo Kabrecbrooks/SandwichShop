@@ -1,8 +1,8 @@
 import java.util.List;
 import java.util.Scanner;
-
+// Class representing a drink item
 public class Drinks {
-
+    // Instance variables to store the drink's size, flavor, and price
     private String size;
     private String flavor;
     private double price;
@@ -14,10 +14,20 @@ public class Drinks {
             "Orange"
     );
 
+    // Constructor to initialize a Drinks object with size and flavor
     public Drinks(String size, String flavor) {
         this.size = size;
         this.flavor = flavor;
         this.price = getPrice(size);
+    }
+
+    @Override
+    public String toString() {
+        return
+                "size='" + size + '\'' +
+                ", flavor='" + flavor + '\'' +
+                ", price=" + price +
+                '}';
     }
 
     public String getSize() {
@@ -35,7 +45,7 @@ public class Drinks {
     public void setFlavor(String flavor) {
         this.flavor = flavor;
     }
-
+    // Overloaded method to determine price based on size input
     public double getPrice(String size) {
         if (size.equalsIgnoreCase("M")) {
             this.price = 2.50;
@@ -54,9 +64,10 @@ public class Drinks {
     public void setPrice(double price) {
         this.price = price;
     }
-
+    // Static method to create a new drink based on user input
     public static Drinks createDrink(Scanner scanner) {
         Integer userChoice = null;
+        // Loop until valid user choice is made
         while (userChoice == null) {
             System.out.println("Available drinks:");
             for (int i = 0; i < drinkList.size(); i++) {

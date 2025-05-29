@@ -1,0 +1,11 @@
+Sandwiches:
+Sandwich {
+  Bread: Wheat (4")
+  Toasted: No
+  Toppings: [Swiss - $0.75]
+  Sauces: [mayo]
+  Sides: None
+  Total Price: $6.25
+}
+Total: $6.25
+Thank you for your order!

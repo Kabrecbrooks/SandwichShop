@@ -1,0 +1,6 @@
+Drinks:
+Drinks@681a9515
+Chips:
+Chips{price=1.5, name='Cheetos'}
+Total: $3.50
+Thank you for your order!

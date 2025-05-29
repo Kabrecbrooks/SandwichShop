@@ -114,7 +114,7 @@ public class Order {
                 try (FileWriter writer = new FileWriter(receiptFile)) {
                     writer.write(receipt.toString());
                 }
-                System.out.println("Receipt saved to: " + receiptFile.getAbsolutePath());
+                System.out.println("Receipt has been saved");
             } catch (IOException e) {
                 System.out.println("Could not save receipt: " + e.getMessage());
             }
