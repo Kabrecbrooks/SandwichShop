@@ -3,17 +3,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(" WELCOME TO THE BEST SANDWICH SHOP \n" +
-                "1. New order \n 2. Exit" );
-
-        Scanner scanner = new Scanner(System.in);
-
-        Order order = new Order();
-        int userInput = Integer.parseInt(scanner.nextLine().trim());
-
         boolean homeMenuRunning = true;
+        try (Scanner scanner = new Scanner(System.in)) {
+            Order order = new Order(scanner);
 
             while (homeMenuRunning) {
+                System.out.println("WELCOME TO THE BEST SANDWICH SHOP \n1. New order \n2. Exit-exit the application");
+                int userInput = Integer.parseInt(scanner.nextLine().trim());
                 switch (userInput) {
                     case 1:
                         System.out.println("Menu");
@@ -27,6 +23,7 @@ public class Main {
                         System.out.println("Try again");
                 }
             }
-
+        }
     }
 }
+

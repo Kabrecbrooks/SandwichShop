@@ -1,7 +1,7 @@
 public abstract class Toppings {
 
     private String name;
-    boolean extra;
+    private boolean extra;
     private double price;
 
     public Toppings(String name, boolean extra, double price) {
@@ -23,7 +23,7 @@ public abstract class Toppings {
     }
 
     public void setExtra(boolean extra) {
-        extra = extra;
+        this.extra = extra;
     }
 
     public double getPrice() {
@@ -32,5 +32,10 @@ public abstract class Toppings {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return name + (extra ? " (extra)" : "") + " - $" + price;
     }
 }
