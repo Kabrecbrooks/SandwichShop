@@ -152,11 +152,9 @@ When an order is placed:
 ----------
 
 ## ✅ Future Enhancements (Ideas)
-
--   Add GUI with JavaFX or Swing
     
 -   Include tax calculation and payment options
     
 -   Track order history across sessions
     
--   Improve input validation with enums or menu selectors
+
