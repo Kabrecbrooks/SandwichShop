@@ -20,7 +20,7 @@ public class Drinks {
         this.flavor = flavor;
         this.price = getPrice(size);
     }
-
+// struggled with too string method and formatting for the reciept
     @Override
     public String toString() {
         return String.format("%s (%s) - $%.2f", flavor, size, price);

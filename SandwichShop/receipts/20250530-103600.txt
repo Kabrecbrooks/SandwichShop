@@ -1,0 +1,15 @@
+Sandwiches:
+Sandwich 
+  Bread: White (8")
+  Toasted: Yes
+  Toppings: [steak - $2.0, Swiss (extra) - $2.1, lettuce - $0.0, peppers - $0.0, onions - $0.0]
+  Sauces: [mayo, mustard]
+  Sides: None
+  Total Price: $11.10
+
+Drinks:
+Pepsi (M) - $2.50
+Chips:
+Doritos - $1.50
+Total: $15.10
+Thank you for your order!
